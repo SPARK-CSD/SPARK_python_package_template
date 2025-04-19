@@ -257,3 +257,5 @@ html_sidebars = {
     "**": ["logo-text.html", "globaltoc.html",
            "localtoc.html", "searchbox.html"]
 }
+
+suppress_warnings = ["config.cache"]
