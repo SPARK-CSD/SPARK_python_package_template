@@ -6,7 +6,7 @@
 
 generate_docker() {
   docker run --rm kaczmarj/neurodocker:0.7.0 generate docker \
-             --base BaseImage \
+             --base ubuntu:22.04 \
              --pkg-manager apt \
              --arg DEBIAN_FRONTEND=noninteractive \
              --miniconda \
@@ -15,7 +15,7 @@ generate_docker() {
                create_env='spark_python_template' \
                activate=true \
             --copy . /home/spark_python_template \
-            --run-bash "source activate spark_python_template && cd /home/spark_python_template && pip install -e ." \
+            --run-bash "source activate spark_python_template && cd /home/spark_python_template && pip install -r requirements.txt && pip install -e ." \
             --env IS_DOCKER=1 \
             --workdir '/tmp/' \
             --entrypoint "/neurodocker/startup.sh  spark_python_template"
