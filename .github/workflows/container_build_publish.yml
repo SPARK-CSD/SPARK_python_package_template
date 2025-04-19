@@ -20,7 +20,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # setup Docker buld action
+      # setup Docker build action
       - name: Set up Docker Buildx
         id: buildx
         uses: docker/setup-buildx-action@v2
@@ -46,7 +46,7 @@ jobs:
           # Note: tags has to be all lower-case
           tags: |
             sparkcsd/spark_python_package_template:latest 
-            ghcr.io/sparkcsd/spark_python_package_template:latest
+            ghcr.io/spark-csd/spark_python_package_template:latest
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/main' }}
 
