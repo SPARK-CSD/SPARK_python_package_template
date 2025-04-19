@@ -10,13 +10,13 @@ Reference API
 
 .. _ref_datasets:
 
-:mod:`spark_python_template.function_subsection` - Functionality sub-section
-----------------------------------------------------------------------------
-.. automodule:: spark_python_template.function_subsection
+:mod:`spark_python_template.spark_python_template_funtionality` - Functionality sub-section
+-------------------------------------------------------------------------------------------
+.. automodule:: spark_python_template.spark_python_template_funtionality
    :no-members:
    :no-inherited-members:
 
-.. currentmodule:: spark_python_template.function_subsection
+.. currentmodule:: spark_python_template.spark_python_template_funtionality
 
 .. autosummary::
    :template: function.rst
