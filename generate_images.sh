@@ -32,5 +32,3 @@ if [ $1 = local ]; then
 else
   echo "Image(s) won't be build locally."
 fi            
-
-
