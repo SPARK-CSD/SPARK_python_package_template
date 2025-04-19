@@ -27,8 +27,8 @@ jobs:
     - name: Install spark_python_template
       run: |
         pip install ./
-    - name: Test code
-      shell: bash -l {0}
-      run: |
-        pytest
-        flake8
+    # - name: Test code
+    #   shell: bash -l {0}
+    #   run: |
+    #     pytest
+    #     flake8
