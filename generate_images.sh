@@ -11,15 +11,14 @@ generate_docker() {
              --arg DEBIAN_FRONTEND=noninteractive \
              --miniconda \
                version=latest \
-               conda_install="python=PythonVersion PythonPackages" \
-               pip_install="PythonPackages" \
-               create_env='package_name' \
+               conda_install="python=3.11" \
+               create_env='spark_python_template' \
                activate=true \
-            --copy . /home/package_name \
-            --run-bash "source activate package_name && cd /home/package_name && pip install -e ." \
+            --copy . /home/spark_python_template \
+            --run-bash "source activate spark_python_template && cd /home/spark_python_template && pip install -e ." \
             --env IS_DOCKER=1 \
             --workdir '/tmp/' \
-            --entrypoint "/neurodocker/startup.sh  package_name"
+            --entrypoint "/neurodocker/startup.sh  spark_python_template"
 }
 
 # generate files
@@ -29,7 +28,7 @@ generate_docker > Dockerfile
 if [ $1 = local ]; then
     echo "docker image will be build locally"
     # build image using the saved files
-    docker build -t package_name:local .
+    docker build -t spark_python_template:local .
 else
   echo "Image(s) won't be build locally."
 fi            

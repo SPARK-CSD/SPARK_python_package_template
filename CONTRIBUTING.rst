@@ -13,7 +13,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/YourGitHubHandle/package_name/issues.
+Report bugs at https://github.com/spark-csd/spark_python_template/issues.
 
 If you are reporting a bug, please include:
 
@@ -42,7 +42,7 @@ or even on the web in blog posts, articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/YourGitHubHandle/package_name/issues.
+The best way to send feedback is to file an issue at https://github.com/spark-csd/spark_python_template/issues.
 
 If you are proposing a feature:
 
@@ -54,9 +54,9 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up ``package_name`` for local development.
+Ready to contribute? Here's how to set up ``spark_python_template`` for local development.
 
-1. Fork the ``package_name`` repo on GitHub.
+1. Fork the ``spark_python_template`` repo on GitHub.
 2. Clone your fork locally::
 
     $ git clone git@github.com:your_name_here/package_name.git
@@ -99,6 +99,6 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.7, 3.3, 3.4, 3.5 and for PyPy. Check
-   https://travis-ci.org/YourGitHubHandle/package_name/pull_requests
+   https://travis-ci.org/spark-csd/spark_python_template/pull_requests
    and make sure that the tests pass for all supported Python versions.
 

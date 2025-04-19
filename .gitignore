@@ -1,0 +1,14 @@
+.DS_Store
+**/.DS_Store
+
+
+docs/build/*
+docs/.DS_Store
+
+__pycache__/*.pyc
+
+spark_python_template.egg-info/*
+
+spark_python_template/__pycache__/*
+
+build/*

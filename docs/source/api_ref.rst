@@ -1,6 +1,6 @@
 .. _api_ref:
 
-.. currentmodule:: package_name
+.. currentmodule:: spark_python_template
 
 Reference API
 =============
@@ -10,13 +10,13 @@ Reference API
 
 .. _ref_datasets:
 
-:mod:`package_name.functon_subsection` - Functionality sub-section
------------------------------------------------
-.. automodule:: package_name.functon_subsection
+:mod:`spark_python_template.function_subsection` - Functionality sub-section
+----------------------------------------------------------------------------
+.. automodule:: spark_python_template.function_subsection
    :no-members:
    :no-inherited-members:
 
-.. currentmodule:: package_name.functon_subsection
+.. currentmodule:: spark_python_template.function_subsection
 
 .. autosummary::
    :template: function.rst
@@ -24,13 +24,13 @@ Reference API
 
 .. _ref_utils:
 
-:mod:`package_name.utils` - Utility functions
-------------------------------------------------
-.. automodule:: package_name.utils
+:mod:`spark_python_template.utils` - Utility functions
+------------------------------------------------------
+.. automodule:: spark_python_template.utils
    :no-members:
    :no-inherited-members:
 
-.. currentmodule:: package_name.utils
+.. currentmodule:: spark_python_template.utils
 
 .. autosummary::
    :template: function.rst

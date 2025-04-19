@@ -4,5 +4,5 @@
 Tutorial walkthrough
 ====================
 
-To better familirize interested users with the application of ``package_name``, we created a tutorial walkthrough below,
+To better familirize interested users with the application of ``spark_python_template``, we created a tutorial walkthrough below,
 that outlines how the different functions are implemented.

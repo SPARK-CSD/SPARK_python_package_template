@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-package_name example
+spark_python_template example
 =====================================
-This example demonstrates how to use :mod:`package_name`.
+This example demonstrates how to use :mod:`spark_python_template`.
 """
