@@ -7,9 +7,9 @@
 .. centered:: spark_python_template: A short description of your python package.
 
 
-.. image:: https://github.com/spark-csd/spark_python_template/actions/workflows/docs.yml/badge.svg
-        :target: https://github.com/spark-csd/spark_python_template/actions/workflows/docs.yml
- 
+.. image:: https://github.com/SPARK-CSD/SPARK_python_package_template/actions/workflows/docs.yml/badge.svg
+        :target: https://github.com/SPARK-CSD/SPARK_python_package_template/actions/workflows/docs.yml
+
 .. image:: https://img.shields.io/pypi/v/spark_python_template.svg
         :target: https://pypi.python.org/pypi/spark_python_template
 
