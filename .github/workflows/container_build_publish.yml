@@ -45,8 +45,8 @@ jobs:
           context: ./
           # Note: tags has to be all lower-case
           tags: |
-            YourDockerHandle/package_name:latest 
-            ghcr.io/YourDockerHandle/package_name:latest
+            sparkcsd/spark_python_template:latest 
+            ghcr.io/sparkcsd/spark_python_template:latest
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/main' }}
 
