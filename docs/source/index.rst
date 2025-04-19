@@ -13,9 +13,9 @@
 .. image:: https://img.shields.io/pypi/v/spark_python_package_template.svg
         :target: https://pypi.python.org/pypi/spark_python_package_template
 
-.. image:: https://img.shields.io/docker/pulls/spark-csd/spark_python_package_template
+.. image:: https://img.shields.io/docker/pulls/sparkcsd/spark_python_package_template
     :alt: Dockerpulls
-    :target: https://cloud.docker.com/u/spark-csd/repository/docker/spark-csd/spark_python_package_template
+    :target: https://cloud.docker.com/u/sparkcsd/repository/docker/sparkcsd/spark_python_package_template
 
 .. image:: https://img.shields.io/github/repo-size/spark-csd/spark_python_package_template.svg
         :target: https://img.shields.io/github/repo-size/spark-csd/spark_python_package_template.zip
